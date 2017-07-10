@@ -74,7 +74,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Disgust</SaveGameFolderName>
       <BinaryFilesInSourceControl>True</BinaryFilesInSourceControl>
-      <AudioIndexer>3</AudioIndexer>
+      <AudioIndexer>7</AudioIndexer>
       <BuildTargets xml:space="preserve">Windows, Linux</BuildTargets>
     </Settings>
     <LipSync>
@@ -782,7 +782,7 @@
             <ID>1</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>15</CursorImage>
             <Image>15</Image>
             <Description xml:space="preserve">fire ex</Description>
@@ -978,7 +978,7 @@
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
             <StartX>317</StartX>
-            <StartY>378</StartY>
+            <StartY>376</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -2065,7 +2065,20 @@
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">AudioCache/Black Vortex.mp3</SourceFileName>
+                <ScriptName>aBlack_Vortex</ScriptName>
+                <Index>4</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <FileLastModifiedDate>2017-07-10 13:39:24Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
@@ -2078,47 +2091,47 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aElectricNoise</ScriptName>
-                <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\ElectricNoise.WAV</SourceFileName>
-                <Index>1</Index>
+                <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\Sound Effects\door-10-close.wav</SourceFileName>
+                <ScriptName>aDoor_10_close</ScriptName>
+                <Index>5</Index>
                 <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
+                <BundlingType>InSeparateVOX</BundlingType>
                 <FileType>WAV</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-10 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2017-07-10 12:56:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aLostCraftHowl</ScriptName>
-                <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\LostCraftHowl.wav</SourceFileName>
-                <Index>2</Index>
+                <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\Sound Effects\door-10-open.wav</SourceFileName>
+                <ScriptName>aDoor_10_open</ScriptName>
+                <Index>6</Index>
                 <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
+                <BundlingType>InSeparateVOX</BundlingType>
                 <FileType>WAV</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-10 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2017-07-10 12:56:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aRadioNoise</ScriptName>
-                <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\RadioNoise.WAV</SourceFileName>
-                <Index>3</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
+                <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\BBC Sound Effects Library\Sound Effects Library-04 (Interior Backgrounds)\15 Bank.mp3</SourceFileName>
+                <ScriptName>a15_Bank</ScriptName>
+                <Index>7</Index>
+                <Type>1</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-11 21:58:18Z</FileLastModifiedDate>
+                <DefaultRepeat>True</DefaultRepeat>
+                <FileLastModifiedDate>2017-07-10 15:29:29Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
               <DefaultRepeat>False</DefaultRepeat>
-              <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+              <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
               <DefaultType>3</DefaultType>
             </AudioClipFolder>
           </AudioClipFolder>
@@ -2135,24 +2148,24 @@
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
@@ -2180,7 +2193,7 @@
   <Component Name="GlobalVariables" />
   <Component Name="Scripts" />
   <Component Name="Notes">
-    <NoteFileList />
+    <NoteFileList>Credits.txt</NoteFileList>
   </Component>
   <Component Name="Plugins" />
   <Component Name="Rooms" />
