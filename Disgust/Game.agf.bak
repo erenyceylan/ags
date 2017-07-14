@@ -1540,16 +1540,56 @@
               <SpriteFolder Name="Inventory">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2" Width="320" Height="26" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="3" Width="10" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="4" Width="10" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="7" Width="10" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="8" Width="10" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="9" Width="10" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="10" Width="10" Height="20" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="11" Width="35" Height="18" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="12" Width="35" Height="18" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="13" Width="35" Height="18" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="2" Width="640" Height="52" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\gui mod.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="3" Width="16" Height="36" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\left arrow dark.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="4" Width="16" Height="36" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\left arrow mid.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="7" Width="16" Height="36" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\left arrow bri.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="8" Width="16" Height="36" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\right arrow dark.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="9" Width="16" Height="36" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\right arrow mid.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="10" Width="16" Height="36" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\right arrow bri.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="11" Width="70" Height="36" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\dark.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="12" Width="70" Height="36" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\mid.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="13" Width="70" Height="36" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\eren\Desktop\bri.png</FileName>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -2067,8 +2107,8 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <SourceFileName xml:space="preserve">AudioCache/Black Vortex.mp3</SourceFileName>
                 <ScriptName>aBlack_Vortex</ScriptName>
+                <SourceFileName xml:space="preserve">AudioCache/Black Vortex.mp3</SourceFileName>
                 <Index>4</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -2091,8 +2131,8 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\Sound Effects\door-10-close.wav</SourceFileName>
                 <ScriptName>aDoor_10_close</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\Sound Effects\door-10-close.wav</SourceFileName>
                 <Index>5</Index>
                 <Type>3</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -2103,8 +2143,8 @@
                 <FileLastModifiedDate>2017-07-10 12:56:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\Sound Effects\door-10-open.wav</SourceFileName>
                 <ScriptName>aDoor_10_open</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\Sound Effects\door-10-open.wav</SourceFileName>
                 <Index>6</Index>
                 <Type>3</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -2115,8 +2155,8 @@
                 <FileLastModifiedDate>2017-07-10 12:56:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\BBC Sound Effects Library\Sound Effects Library-04 (Interior Backgrounds)\15 Bank.mp3</SourceFileName>
                 <ScriptName>a15_Bank</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\BBC Sound Effects Library\Sound Effects Library-04 (Interior Backgrounds)\15 Bank.mp3</SourceFileName>
                 <Index>7</Index>
                 <Type>1</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -2148,24 +2188,24 @@
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>2</TypeID>
         <Name>Music</Name>
+        <TypeID>2</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>3</TypeID>
         <Name>Sound</Name>
+        <TypeID>3</TypeID>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
