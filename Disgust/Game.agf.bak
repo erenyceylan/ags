@@ -2206,8 +2206,8 @@ return
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aBlack_Vortex</ScriptName>
                 <SourceFileName xml:space="preserve">AudioCache/Black Vortex.mp3</SourceFileName>
+                <ScriptName>aBlack_Vortex</ScriptName>
                 <Index>4</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -2287,8 +2287,8 @@ return
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
