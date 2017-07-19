@@ -632,6 +632,10 @@
             <Number>2</Number>
             <Description xml:space="preserve">second floor</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>3</Number>
+            <Description xml:space="preserve">Title Screen</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -770,6 +774,26 @@
                 <Name>btnQuit</Name>
               </GUIButton>
             </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>480</Height>
+              <Width>640</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>Normal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>63519</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>63519</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>2</ID>
+              <Name>gGui1</Name>
+            </NormalGUI>
+            <Controls />
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -976,9 +1000,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>3</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
-            <StartX>317</StartX>
-            <StartY>376</StartY>
+            <StartingRoom>3</StartingRoom>
+            <StartX>0</StartX>
+            <StartY>-1</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -1078,7 +1102,7 @@
             <Properties />
             <Interactions>
               <Event Index="0" />
-              <Event Index="1" />
+              <Event Index="1">cCash_Interact</Event>
               <Event Index="2" />
               <Event Index="3" />
               <Event Index="4" />
@@ -1094,7 +1118,18 @@
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />
-        <Dialogs />
+        <Dialogs>
+          <Dialog>
+            <ID>0</ID>
+            <Name>dDialog1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+        </Dialogs>
       </DialogFolder>
     </Dialogs>
     <Cursors>
