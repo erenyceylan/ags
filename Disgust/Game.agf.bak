@@ -74,7 +74,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Disgust</SaveGameFolderName>
       <BinaryFilesInSourceControl>True</BinaryFilesInSourceControl>
-      <AudioIndexer>7</AudioIndexer>
+      <AudioIndexer>13</AudioIndexer>
       <BuildTargets xml:space="preserve">Windows, Linux</BuildTargets>
     </Settings>
     <LipSync>
@@ -2206,8 +2206,8 @@ return
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <SourceFileName xml:space="preserve">AudioCache/Black Vortex.mp3</SourceFileName>
                 <ScriptName>aBlack_Vortex</ScriptName>
+                <SourceFileName xml:space="preserve">AudioCache/Black Vortex.mp3</SourceFileName>
                 <Index>4</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -2216,6 +2216,18 @@ return
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2017-07-10 13:39:24Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aAwaiting_Return</ScriptName>
+                <SourceFileName xml:space="preserve">AudioCache/Awaiting Return.mp3</SourceFileName>
+                <Index>13</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-07-19 12:22:20Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -2254,7 +2266,7 @@ return
                 <FileLastModifiedDate>2017-07-10 12:56:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>a15_Bank</ScriptName>
+                <ScriptName>Bank</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\eren\Downloads\BBC Sound Effects Library\Sound Effects Library-04 (Interior Backgrounds)\15 Bank.mp3</SourceFileName>
                 <Index>7</Index>
                 <Type>1</Type>
@@ -2264,6 +2276,30 @@ return
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2017-07-10 15:29:29Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>fridge_door</ScriptName>
+                <SourceFileName xml:space="preserve">AudioCache/03 ext- Hatch opens.mp3</SourceFileName>
+                <Index>11</Index>
+                <Type>3</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-07-19 11:58:23Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>Wooden_door</ScriptName>
+                <SourceFileName xml:space="preserve">AudioCache/36 Wooden door.mp3</SourceFileName>
+                <Index>12</Index>
+                <Type>3</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-07-19 12:05:51Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -2295,16 +2331,16 @@ return
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
