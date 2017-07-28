@@ -625,14 +625,6 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
-            <Number>1</Number>
-            <Description xml:space="preserve">main floor</Description>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Number>2</Number>
-            <Description xml:space="preserve">second floor</Description>
-          </UnloadedRoom>
-          <UnloadedRoom>
             <Number>3</Number>
             <Description xml:space="preserve">Title Screen</Description>
           </UnloadedRoom>
@@ -807,7 +799,7 @@
                 <Image>0</Image>
                 <Text />
                 <Height>36</Height>
-                <Locked>False</Locked>
+                <Locked>True</Locked>
                 <Width>164</Width>
                 <Left>43</Left>
                 <Top>19</Top>
@@ -828,7 +820,7 @@
                 <Image>0</Image>
                 <Text />
                 <Height>34</Height>
-                <Locked>False</Locked>
+                <Locked>True</Locked>
                 <Width>162</Width>
                 <Left>43</Left>
                 <Top>65</Top>
@@ -849,7 +841,7 @@
                 <Image>0</Image>
                 <Text />
                 <Height>34</Height>
-                <Locked>False</Locked>
+                <Locked>True</Locked>
                 <Width>84</Width>
                 <Left>85</Left>
                 <Top>112</Top>
@@ -1065,15 +1057,15 @@
             <ThinkingView>3</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>3</StartingRoom>
-            <StartX>0</StartX>
-            <StartY>-1</StartY>
+            <StartX>188</StartX>
+            <StartY>97</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>2016</SpeechColor>
+            <SpeechColor>1536</SpeechColor>
             <Solid>True</Solid>
             <Clickable>False</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1087,86 +1079,6 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-              <Event Index="5" />
-              <Event Index="6" />
-              <Event Index="7" />
-            </Interactions>
-          </Character>
-          <Character>
-            <ID>1</ID>
-            <ScriptName>cPolice</ScriptName>
-            <RealName>Police</RealName>
-            <NormalView>1</NormalView>
-            <SpeechView>0</SpeechView>
-            <IdleView>0</IdleView>
-            <ThinkingView>0</ThinkingView>
-            <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
-            <StartX>1000</StartX>
-            <StartY>1000</StartY>
-            <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>3</MovementSpeed>
-            <MovementSpeedX>0</MovementSpeedX>
-            <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
-            <Solid>False</Solid>
-            <Clickable>False</Clickable>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <TurnBeforeWalking>True</TurnBeforeWalking>
-            <DiagonalLoops>True</DiagonalLoops>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
-            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <Properties />
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-              <Event Index="5" />
-              <Event Index="6" />
-              <Event Index="7" />
-            </Interactions>
-          </Character>
-          <Character>
-            <ID>2</ID>
-            <ScriptName>cCash</ScriptName>
-            <RealName>Cash</RealName>
-            <NormalView>4</NormalView>
-            <SpeechView>0</SpeechView>
-            <IdleView>0</IdleView>
-            <ThinkingView>0</ThinkingView>
-            <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
-            <StartX>264</StartX>
-            <StartY>74</StartY>
-            <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>3</MovementSpeed>
-            <MovementSpeedX>0</MovementSpeedX>
-            <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
-            <Solid>True</Solid>
-            <Clickable>True</Clickable>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <TurnBeforeWalking>True</TurnBeforeWalking>
-            <DiagonalLoops>True</DiagonalLoops>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
-            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <Properties />
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1">cCash_Interact</Event>
               <Event Index="2" />
               <Event Index="3" />
               <Event Index="4" />
@@ -1185,11 +1097,111 @@
         <Dialogs>
           <Dialog>
             <ID>0</ID>
-            <Name>dDialog1</Name>
+            <Name>Narrator</Name>
             <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-return
+            <Script><![CDATA[//SOURCE:C:\Users\eren\Documents\ags\Disgust\narrator.dlg.xml
+@S  // Start
+PLAYER: &1 Chicky's freestyle speech.
+  Wait(80);
+PLAYER: &2 A gentleman enters a restaurant.
+PLAYER: &3 Red tables, red counter, red menu...
+PLAYER: &4 Delicious looking burgers, smell of hot oil and soft potatoes...
+PLAYER: &5 "Nothing has changed, it seems!"
+PLAYER: &6 Says the gentleman. Nothing changed, except for him.
+PLAYER: &7 When he left this place 25 years ago, he was young and tough.
+PLAYER: &8 Now he is as soft as those potatoes.
+PLAYER: &9 He tries to think other things.
+PLAYER: &10 He thinks his purpose, yes he has a purpose and he need to do,
+PLAYER: &11 Do what he couldn't 25 years ago.
+PLAYER: &12 He walks to counter and orders a side salad with ranch dressing,
+PLAYER: &13 Just like he did 25 years ago, in different circumstances.
+PLAYER: &14 He takes his tray and sits on one of the tables.
+PLAYER: &15 He'd love to taste the side salad, but that's not why he's here.
+PLAYER: &16 He has no time to sit and eat.
+PLAYER: &17 He has something to do first.
+PLAYER: &18 He looks at voucher: 3323. Even password to restrooms didn't change.
+PLAYER: &19 "It still reads same word..."
+PLAYER: &20 He thinks. And slowly stands up.
+PLAYER: &21 He takes a deep breath befor entering restrooms.
+PLAYER: &22 And here he is again. He feels good when he realises something has changed.
+PLAYER: &3 Red tables, red counter, red menu...
+PLAYER: &23 But no red walls anymore. They are all gray now.
+PLAYER: &24 He looks to gray walls and remembers how white they were.
+PLAYER: &25 And he remembers how they got red.
+PLAYER: &26 He remembers what he did...
+  FadeOut(10);
+  Wait(20);
+  FadeIn(10);
+PLAYER: &27 A young man entered the restaurant.
+PLAYER: &28 He looked like he has in hurry.
+PLAYER: &29 He passed red counter and red tables, didn't even looked at red menu.
+PLAYER: &30 He went directly to the restrooms but couldn't get whaat he wants.
+PLAYER: &31 "Damn door passwords! You can't even pee in peace..."
+PLAYER: &32 He grumbled.
+PLAYER: &33 He asked the password to the door to first costumer he saw.
+PLAYER: &34 The customer yelled "No!"
+PLAYER: &35 "Those freeloaders!"
+PLAYER: &36 The young man squeezed his fist but said nothing.
+PLAYER: &37 He asked to another costumer, but couldn't get what he wanted again.
+PLAYER: &38 He decided to ask to employee instead of stupid costumers.
+PLAYER: &39 "I can't tell the password, you need to buy something to get it. Company pollicy."
+PLAYER: &40 He would be happy to buy something, but he just left his wallet at home.
+PLAYER: &41 He explained the situation but employee just ignored what he said.
+PLAYER: &42 "Company pollicy."
+PLAYER: &43 His hands started to shaking, but he didn't say anything.
+PLAYER: &44 Then se saw something. Saomething that could help him.
+PLAYER: &45 Someone left tray without dumping the garbage.
+PLAYER: &46 He quickly went to tray and checked voucher.
+PLAYER: &47 He left his anger behind, forgot about stupid costumers and employee,
+PLAYER: &48 He forgot about company pollicy and focused to password only.
+PLAYER: &49 He entered 3323 to keypad, and stepped into peace.
+  FadeOut(10);
+  Wait(20);
+  FadeIn(10);
+PLAYER: &50 Well, he thought he stepped into peace at least.
+PLAYER: &51 Until he took a breath.
+PLAYER: &52 Until he tried to use toilet.
+PLAYER: &53 Until he saw the hell.
+  Wait(40);
+PLAYER: &54 He got out of restroom. All the anger he left behind came back.
+PLAYER: &55 He was angry, more than that, he was furious.
+PLAYER: &56 He just wanted to find who did that.
+PLAYER: &57 He started to sniff people. Whoever did that, must left clues behind.
+PLAYER: &58 People got disturbed, but he didn't care. He used all his politeness that day.
+PLAYER: &59 And finally he thought he found the guilty.
+PLAYER: &60 "Did you do that?"
+PLAYER: &61 He asked. Guilty one just could say "Hah?"
+PLAYER: &62 "Your guilty just stinks out of you!"
+PLAYER: &63 He yelled. And then he hold guilty one's arm.
+PLAYER: &64 "Hey, leave me alone!" said the guilty one and pushed him.
+PLAYER: &65 That was the last drop. He started to chase the guilty one to restrooms.
+PLAYER: &66 But couldn't get him because he locked himself in the toilet.
+PLAYER: &67 He tried to push door but door was too strong.
+PLAYER: &68 Then he remembered a red fire extenguisher behind the counter.
+PLAYER: &69 He walked to counter but employee didn't look like let him to get the fire extenguisher.
+PLAYER: &70 He couldn't get in an snother fight. He did must find a way to get it.
+PLAYER: &71 He started to look around. And then he saw it. Saw the slution.
+PLAYER: &72 He needed to get rid of employee, and there was no ranch dressing left in fridge.
+PLAYER: &73 He ordered a side salad with ranch dressing.
+PLAYER: &74 Employee looked at him weird, he said he forgothis wallet  couple of minutes ago.
+PLAYER: &75 Also he almost got in a fight.
+PLAYER: &76 "Whatever..." crubled employee and went away to get ranch drressing.
+PLAYER: &77 After that, time went fast.
+PLAYER: &78 He took the f,re extenguisher.
+PLAYER: &79 He broke the restroom door.
+PLAYER: &80 Walls got red.
+  FadeOut(10);
+  Wait(20);
+  FadeIn(10);
+PLAYER: &81 He shakes his head, put aways bad memories.
+PLAYER: &82 And walks to toilet.
+PLAYER: &83 Does what he couldn't do 25 years ago.
+PLAYER: &84 Pees in rest.
+
+stop
+
+
+
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -2323,24 +2335,24 @@ return
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>2</TypeID>
         <Name>Music</Name>
+        <TypeID>2</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>3</TypeID>
         <Name>Sound</Name>
+        <TypeID>3</TypeID>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
@@ -2367,6 +2379,9 @@ return
   <Component Name="AudioNew" />
   <Component Name="GlobalVariables" />
   <Component Name="Scripts" />
+  <Component Name="DialogDesignerComponent">
+    <DialogDesignerPath>C:\Program Files (x86)\Adventure Game Studio\eklemeler\DialogDesigner\Dialog Designer.exe</DialogDesignerPath>
+  </Component>
   <Component Name="Notes">
     <NoteFileList>Credits.txt</NoteFileList>
   </Component>

@@ -1,0 +1,98 @@
+// AGS auto-numbered speech lines output. This file was automatically generated.
+cJhon: &1 Chicky's freestyle speech.
+cJhon: &2 A gentleman enters a restaurant.
+cJhon: &3 Red tables, red counter, red menu...
+cJhon: &4 Delicious looking burgers, smell of hot oil and soft potatoes...
+cJhon: &5 "Nothing has changed, it seems!"
+cJhon: &6 Says the gentleman. Nothing changed, except for him.
+cJhon: &7 When he left this place 25 years ago, he was young and tough.
+cJhon: &8 Now he is as soft as those potatoes.
+cJhon: &9 He tries to think other things.
+cJhon: &10 He thinks his purpose, yes he has a purpose and he need to do,
+cJhon: &11 Do what he couldn't 25 years ago.
+cJhon: &12 He walks to counter and orders a side salad with ranch dressing,
+cJhon: &13 Just like he did 25 years ago, in different circumstances.
+cJhon: &14 He takes his tray and sits on one of the tables.
+cJhon: &15 He'd love to taste the side salad, but that's not why he's here.
+cJhon: &16 He has no time to sit and eat.
+cJhon: &17 He has something to do first.
+cJhon: &18 He looks at voucher: 3323. Even password to restrooms didn't change.
+cJhon: &19 "It still reads same word..."
+cJhon: &20 He thinks. And slowly stands up.
+cJhon: &21 He takes a deep breath befor entering restrooms.
+cJhon: &22 And here he is again. He feels good when he realises something has changed.
+cJhon: &23 But no red walls anymore. They are all gray now.
+cJhon: &24 He looks to gray walls and remembers how white they were.
+cJhon: &25 And he remembers how they got red.
+cJhon: &26 He remembers what he did...
+cJhon: &27 A young man entered the restaurant.
+cJhon: &28 He looked like he has in hurry.
+cJhon: &29 He passed red counter and red tables, didn't even looked at red menu.
+cJhon: &30 He went directly to the restrooms but couldn't get whaat he wants.
+cJhon: &31 "Damn door passwords! You can't even pee in peace..."
+cJhon: &32 He grumbled.
+cJhon: &33 He asked the password to the door to first costumer he saw.
+cJhon: &34 The customer yelled "No!"
+cJhon: &35 "Those freeloaders!"
+cJhon: &36 The young man squeezed his fist but said nothing.
+cJhon: &37 He asked to another costumer, but couldn't get what he wanted again.
+cJhon: &38 He decided to ask to employee instead of stupid costumers.
+cJhon: &39 "I can't tell the password, you need to buy something to get it. Company pollicy."
+cJhon: &40 He would be happy to buy something, but he just left his wallet at home.
+cJhon: &41 He explained the situation but employee just ignored what he said.
+cJhon: &42 "Company pollicy."
+cJhon: &43 His hands started to shaking, but he didn't say anything.
+cJhon: &44 Then se saw something. Saomething that could help him.
+cJhon: &45 Someone left tray without dumping the garbage.
+cJhon: &46 He quickly went to tray and checked voucher.
+cJhon: &47 He left his anger behind, forgot about stupid costumers and employee,
+cJhon: &48 He forgot about company pollicy and focused to password only.
+cJhon: &49 He entered 3323 to keypad, and stepped into peace.
+cJhon: &50 Well, he thought he stepped into peace at least.
+cJhon: &51 Until he took a breath.
+cJhon: &52 Until he tried to use toilet.
+cJhon: &53 Until he saw the hell.
+cJhon: &54 He got out of restroom. All the anger he left behind came back.
+cJhon: &55 He was angry, more than that, he was furious.
+cJhon: &56 He just wanted to find who did that.
+cJhon: &57 He started to sniff people. Whoever did that, must left clues behind.
+cJhon: &58 People got disturbed, but he didn't care. He used all his politeness that day.
+cJhon: &59 And finally he thought he found the guilty.
+cJhon: &60 "Did you do that?"
+cJhon: &61 He asked. Guilty one just could say "Hah?"
+cJhon: &62 "Your guilty just stinks out of you!"
+cJhon: &63 He yelled. And then he hold guilty one's arm.
+cJhon: &64 "Hey, leave me alone!" said the guilty one and pushed him.
+cJhon: &65 That was the last drop. He started to chase the guilty one to restrooms.
+cJhon: &66 But couldn't get him because he locked himself in the toilet.
+cJhon: &67 He tried to push door but door was too strong.
+cJhon: &68 Then he remembered a red fire extenguisher behind the counter.
+cJhon: &69 He walked to counter but employee didn't look like let him to get the fire extenguisher.
+cJhon: &70 He couldn't get in an snother fight. He did must find a way to get it.
+cJhon: &71 He started to look around. And then he saw it. Saw the slution.
+cJhon: &72 He needed to get rid of employee, and there was no ranch dressing left in fridge.
+cJhon: &73 He ordered a side salad with ranch dressing.
+cJhon: &74 Employee looked at him weird, he said he forgothis wallet  couple of minutes ago.
+cJhon: &75 Also he almost got in a fight.
+cJhon: &76 "Whatever..." crubled employee and went away to get ranch drressing.
+cJhon: &77 After that, time went fast.
+cJhon: &78 He took the f,re extenguisher.
+cJhon: &79 He broke the restroom door.
+cJhon: &80 Walls got red.
+cJhon: &81 He shakes his head, put aways bad memories.
+cJhon: &82 And walks to toilet.
+cJhon: &83 Does what he couldn't do 25 years ago.
+cJhon: &84 Pees in rest.
+cJhon: &85 I see nothing special about it.
+cJhon: &86 I can't do anything with it.
+cJhon: &87 That won't do anything.
+cJhon: &88 Looks alright.
+cJhon: &89 I don't want to have it.
+cJhon: &90 That's a funny idea.
+cJhon: &91 Hm.
+cJhon: &92 Got nothing to say.
+cJhon: &93 I don't think I should give that away.
+cJhon: &94 It's just some junk in my inventory.
+cJhon: &95 Er, no?
+cJhon: &96 That's ridiculous.
+cJhon: &97 Hahahahaha

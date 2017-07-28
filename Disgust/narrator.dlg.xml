@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog version="1.2" name="Narrator" auto-option-off="True">
+  <options>
+    <option text="Start" show="False" say="False">
+      <script><![CDATA[PLAYER: Chicky's freestyle speech.
+  Wait(80);
+PLAYER: A gentleman enters a restaurant.
+PLAYER: Red tables, red counter, red menu...
+PLAYER: Delicious looking burgers, smell of hot oil and soft potatoes...
+PLAYER: "Nothing has changed, it seems!"
+PLAYER: Says the gentleman. Nothing changed, except for him.
+PLAYER: When he left this place 25 years ago, he was young and tough.
+PLAYER: Now he is as soft as those potatoes.
+PLAYER: He tries to think other things.
+PLAYER: He thinks his purpose, yes he has a purpose and he need to do,
+PLAYER: Do what he couldn't 25 years ago.
+PLAYER: He walks to counter and orders a side salad with ranch dressing,
+PLAYER: Just like he did 25 years ago, in different circumstances.
+PLAYER: He takes his tray and sits on one of the tables.
+PLAYER: He'd love to taste the side salad, but that's not why he's here. 
+PLAYER: He has no time to sit and eat.
+PLAYER: He has something to do first.
+PLAYER: He looks at voucher: 3323. Even password to restrooms didn't change.
+PLAYER: "It still reads same word..."
+PLAYER: He thinks. And slowly stands up.
+PLAYER: He takes a deep breath befor entering restrooms.
+PLAYER: And here he is again. He feels good when he realises something has changed.
+PLAYER: Red tables, red counter, red menu...
+PLAYER: But no red walls anymore. They are all gray now.
+PLAYER: He looks to gray walls and remembers how white they were.
+PLAYER: And he remembers how they got red.
+PLAYER: He remembers what he did...
+  FadeOut(10);
+  Wait(20);
+  FadeIn(10);
+PLAYER: A young man entered the restaurant.
+PLAYER: He looked like he has in hurry.
+PLAYER: He passed red counter and red tables, didn't even looked at red menu.
+PLAYER: He went directly to the restrooms but couldn't get whaat he wants.
+PLAYER: "Damn door passwords! You can't even pee in peace..."
+PLAYER: He grumbled.
+PLAYER: He asked the password to the door to first costumer he saw.
+PLAYER: The customer yelled "No!" 
+PLAYER: "Those freeloaders!"
+PLAYER: The young man squeezed his fist but said nothing.
+PLAYER: He asked to another costumer, but couldn't get what he wanted again.
+PLAYER: He decided to ask to employee instead of stupid costumers.
+PLAYER: "I can't tell the password, you need to buy something to get it. Company pollicy."
+PLAYER: He would be happy to buy something, but he just left his wallet at home.
+PLAYER: He explained the situation but employee just ignored what he said.
+PLAYER: "Company pollicy."
+PLAYER: His hands started to shaking, but he didn't say anything.
+PLAYER: Then se saw something. Saomething that could help him.
+PLAYER: Someone left tray without dumping the garbage.
+PLAYER: He quickly went to tray and checked voucher.
+PLAYER: He left his anger behind, forgot about stupid costumers and employee,
+PLAYER: He forgot about company pollicy and focused to password only.
+PLAYER: He entered 3323 to keypad, and stepped into peace.
+  FadeOut(10);
+  Wait(20);
+  FadeIn(10);
+PLAYER: Well, he thought he stepped into peace at least.
+PLAYER: Until he took a breath.
+PLAYER: Until he tried to use toilet.
+PLAYER: Until he saw the hell.
+  Wait(40);
+PLAYER: He got out of restroom. All the anger he left behind came back.
+PLAYER: He was angry, more than that, he was furious.
+PLAYER: He just wanted to find who did that.
+PLAYER: He started to sniff people. Whoever did that, must left clues behind.
+PLAYER: People got disturbed, but he didn't care. He used all his politeness that day.
+PLAYER: And finally he thought he found the guilty.
+PLAYER: "Did you do that?"
+PLAYER: He asked. Guilty one just could say "Hah?"
+PLAYER: "Your guilty just stinks out of you!"
+PLAYER: He yelled. And then he hold guilty one's arm.
+PLAYER: "Hey, leave me alone!" said the guilty one and pushed him.
+PLAYER: That was the last drop. He started to chase the guilty one to restrooms.
+PLAYER: But couldn't get him because he locked himself in the toilet.
+PLAYER: He tried to push door but door was too strong.
+PLAYER: Then he remembered a red fire extenguisher behind the counter.
+PLAYER: He walked to counter but employee didn't look like let him to get the fire extenguisher.
+PLAYER: He couldn't get in an snother fight. He did must find a way to get it.
+PLAYER: He started to look around. And then he saw it. Saw the slution.
+PLAYER: He needed to get rid of employee, and there was no ranch dressing left in fridge.
+PLAYER: He ordered a side salad with ranch dressing.
+PLAYER: Employee looked at him weird, he said he forgothis wallet  couple of minutes ago.
+PLAYER: Also he almost got in a fight.
+PLAYER: "Whatever..." crubled employee and went away to get ranch drressing.
+PLAYER: After that, time went fast.
+PLAYER: He took the f,re extenguisher.
+PLAYER: He broke the restroom door.
+PLAYER: Walls got red.
+  FadeOut(10);
+  Wait(20);
+  FadeIn(10);
+PLAYER: He shakes his head, put aways bad memories.
+PLAYER: And walks to toilet.
+PLAYER: Does what he couldn't do 25 years ago.
+PLAYER: Pees in rest.
+
+stop]]></script>
+    </option>
+  </options>
+  <variables />
+</dialog>
