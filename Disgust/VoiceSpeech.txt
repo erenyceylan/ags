@@ -186,16 +186,4 @@ cJhon: &81 He shakes his head, put aways bad memories.
 cJhon: &82 And walks to toilet.
 cJhon: &83 Does what he couldn't do 25 years ago.
 cJhon: &84 Pees in rest.
-cJhon: &85 I see nothing special about it.
-cJhon: &86 I can't do anything with it.
-cJhon: &87 That won't do anything.
-cJhon: &88 Looks alright.
-cJhon: &89 I don't want to have it.
-cJhon: &90 That's a funny idea.
-cJhon: &91 Hm.
-cJhon: &92 Got nothing to say.
-cJhon: &93 I don't think I should give that away.
-cJhon: &94 It's just some junk in my inventory.
-cJhon: &95 Er, no?
-cJhon: &96 That's ridiculous.
 cJhon: &97 Hahahahaha
