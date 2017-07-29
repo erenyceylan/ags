@@ -1033,13 +1033,13 @@
             <ScriptName>cJhon</ScriptName>
             <RealName>Jhon</RealName>
             <NormalView>2</NormalView>
-            <SpeechView>3</SpeechView>
+            <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
-            <ThinkingView>3</ThinkingView>
+            <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>3</StartingRoom>
-            <StartX>188</StartX>
-            <StartY>97</StartY>
+            <StartX>190</StartX>
+            <StartY>75</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
