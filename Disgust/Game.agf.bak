@@ -851,6 +851,48 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>480</Height>
+              <Width>640</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>63519</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>63519</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>3</ID>
+              <Name>gbackg</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>Button4_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>360</Height>
+                <Locked>True</Locked>
+                <Width>640</Width>
+                <Left>0</Left>
+                <Top>60</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button4</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -1082,8 +1124,10 @@
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[//SOURCE:C:\Users\eren\Documents\ags\Disgust\narrator.dlg.xml
 @S  // Start
+  FadeOut(10);
 PLAYER: &1 Chicky's freestyle speech.
-  Wait(80);
+  FadeIn(10);
+  Wait(40);
 PLAYER: &2 A gentleman enters a restaurant.
 PLAYER: &3 Red tables, red counter, red menu...
 PLAYER: &4 Delicious looking burgers, smell of hot oil and soft potatoes...
@@ -1606,14 +1650,9 @@ stop
     <GlobalVariables>
       <Variables>
         <GlobalVariable>
-          <Name>police_chase</Name>
+          <Name>backg</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
-          <Name>need_pee</Name>
-          <Type>bool</Type>
-          <DefaultValue>true</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -1698,6 +1737,36 @@ stop
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
+          <Sprite Slot="1" Width="1280" Height="360" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>Sprites/background0000.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="14" Width="1280" Height="360" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>Sprites/background0001.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="15" Width="1280" Height="360" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>Sprites/background0002.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="16" Width="1280" Height="360" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>Sprites/background0003.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="17" Width="1280" Height="360" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>Sprites/background0004.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="18" Width="1280" Height="360" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>Sprites/background0005.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -1773,11 +1842,57 @@ stop
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>1</ID>
+            <Name>bg</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>1</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>14</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>15</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>16</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>17</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
     <DeletedViews>
-      <ViewID>1</ViewID>
       <ViewID>4</ViewID>
     </DeletedViews>
     <Scripts>
@@ -1927,7 +2042,9 @@ stop
   <Component Name="Rooms" />
   <Component Name="Translations" />
   <Component Name="MusicAndSpeech">
-    <SpeechVoxFiles />
+    <SpeechVoxFiles>
+      <File Name="speech\jhon1.mp3" FileTime="2017-07-30 19:20:02Z" />
+    </SpeechVoxFiles>
     <PamFiles />
   </Component>
   <Component Name="SourceControl">
